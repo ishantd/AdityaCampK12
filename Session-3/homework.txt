@@ -1,0 +1,2 @@
+1. Make the border around the Division symbol.
+2. Experiment with CSS selectors and psuedo Selectors

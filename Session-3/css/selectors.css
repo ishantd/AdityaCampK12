@@ -1,0 +1,39 @@
+#p1 {
+    color: red;
+}
+#p2 {
+    color: brown;
+}
+
+
+
+input {
+    border: 5px solid red;
+}
+
+div > p {
+    color: blue;
+}
+
+.move {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid red;
+    transition: 0.5s;
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
+}
+
+/* .move:hover {
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid blue;
+    margin-left: 15px;
+    margin-top: 20px;
+} */
+
+.move:active {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border: 2px solid blue;
+    background-color: red;
+}
