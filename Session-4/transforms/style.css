@@ -1,0 +1,35 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: salmon;
+    transition: 0.4s;
+}
+
+.box1:hover {
+    transform: scaleY(0.6);
+}
+
+.box2:hover {
+    transform: scale(0.4);
+}
+
+.box3:hover {
+    transform: rotate(45deg);
+}
+
+.box4:hover {
+    transform: rotateX(60deg);
+}
+
+.box5:hover {
+    transform: skew(45deg);
+}
+
+.box6:hover {
+    transform: translateX(50px);
+}
+
+.box7:hover {
+    transform: translateY(100px);
+}
